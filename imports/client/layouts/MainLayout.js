@@ -8,7 +8,9 @@ const MainLayout = ({children}) =>
       <h1><Link to='/'>Level Up Voting</Link></h1>
       <LoginButtons />
       <nav>
+        <Link to='/'>Inicio</Link>
         <Link to='/about'>About</Link>
+        <Link to='/admin'>Admin</Link>
       </nav>
     </header>
     {children}
