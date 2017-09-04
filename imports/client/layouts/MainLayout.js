@@ -8,13 +8,9 @@ const MainLayout = ({children}) =>
       <h1><Link to='/'>Level Up Voting</Link></h1>
       <LoginButtons />
       <nav>
-<<<<<<< HEAD
         <Link to='/'>Inicio</Link>
         <Link to='/about'>About</Link>
         <Link to='/admin'>Admin</Link>
-=======
-        <Link to='/about'>About</Link>
->>>>>>> 3a48ec5a43e0860fff4d3433d56339d54d667183
       </nav>
     </header>
     {children}
